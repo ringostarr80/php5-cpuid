@@ -8,7 +8,8 @@
 #include <php5/ext/standard/info.h>
 #include <stdint.h>
 #include <bits/wordsize.h>
-#include "php_cpuid.h"
+
+#include "include/php_cpuid.h"
 
 int le_cpuid;
 

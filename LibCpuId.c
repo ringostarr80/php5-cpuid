@@ -4,7 +4,7 @@
 #include <php5/ext/standard/info.h>
 #include <stdint.h>
 
-#include "LibCpuId.h"
+#include "include/LibCpuId.h"
 
 /**
  * @param in input for cpu register eax

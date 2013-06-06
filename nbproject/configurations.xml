@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="88">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>LibCpuId.h</itemPath>
+      <itemPath>php_cpuid.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="tests" projectFiles="true">
+        <itemPath>tests/LibCpuId.class_basic.phpt</itemPath>
+        <itemPath>tests/LibCpuId.class_get.CpuIdLevel.phpt</itemPath>
+        <itemPath>tests/LibCpuId.class_get.FeatureBits.phpt</itemPath>
+        <itemPath>tests/LibCpuId.class_get.ProcessorBrandString.phpt</itemPath>
+        <itemPath>tests/LibCpuId.class_get.ProcessorInfo.phpt</itemPath>
+        <itemPath>tests/LibCpuId.class_get.RawData.phpt</itemPath>
+        <itemPath>tests/LibCpuId.class_get.VendorId.phpt</itemPath>
+        <itemPath>tests/cpuid_basic.phpt</itemPath>
+      </logicalFolder>
+      <itemPath>LibCpuId.class.php</itemPath>
+      <itemPath>README.md</itemPath>
+      <itemPath>config.m4</itemPath>
+      <itemPath>cpuid.php</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>LibCpuId.c</itemPath>
+      <itemPath>cpuid.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <architecture>1</architecture>
+          <incDir>
+            <pElem>/usr/include/php5/Zend</pElem>
+            <pElem>/usr/include/php5/TSRM</pElem>
+            <pElem>/usr/include/php5/ext</pElem>
+            <pElem>/usr/include/php5/main</pElem>
+            <pElem>/usr/include/php5</pElem>
+          </incDir>
+        </cTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="LibCpuId.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="LibCpuId.class.php" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LibCpuId.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="config.m4" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cpuid.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cpuid.php" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="php_cpuid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tests/LibCpuId.class_basic.phpt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tests/LibCpuId.class_get.CpuIdLevel.phpt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="tests/LibCpuId.class_get.FeatureBits.phpt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="tests/LibCpuId.class_get.ProcessorBrandString.phpt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="tests/LibCpuId.class_get.ProcessorInfo.phpt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="tests/LibCpuId.class_get.RawData.phpt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="tests/LibCpuId.class_get.VendorId.phpt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="tests/cpuid_basic.phpt" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="LibCpuId.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="LibCpuId.class.php" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LibCpuId.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="config.m4" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cpuid.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cpuid.php" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="php_cpuid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tests/LibCpuId.class_basic.phpt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tests/LibCpuId.class_get.CpuIdLevel.phpt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="tests/LibCpuId.class_get.FeatureBits.phpt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="tests/LibCpuId.class_get.ProcessorBrandString.phpt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="tests/LibCpuId.class_get.ProcessorInfo.phpt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="tests/LibCpuId.class_get.RawData.phpt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="tests/LibCpuId.class_get.VendorId.phpt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="tests/cpuid_basic.phpt" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
